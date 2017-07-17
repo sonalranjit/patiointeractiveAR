@@ -8,16 +8,12 @@
 			<a-asset-item id="launchdemo-mtl" src="data/model/LaunchDemo.mtl"></a-asset-item>
 		</a-assets>		
 		<a-marker type='pattern' url='./data/asley-gilbert.patt' size='1'>
-			<!--a-entity obj-model="obj: #launchdemo-obj; mtl: #launchdemo-mtl"
+			<a-entity obj-model="obj: #launchdemo-obj; mtl: #launchdemo-mtl"
 			scale="0.01 0.01 0.01"
 			rotation="0 0 0"
 			position="0 0 0">
-			</a-entity-->
-			<a-box position='0 0.5 0' material='opacity: 0.5; side: double'>
-				<a-torus-knot radius='0.27' radius-tubular='0.05'>
-					<a-animation attribute="rotation" to="360 0 0" dur="5000" easing='linear' repeat="indefinite"></a-animation>
-				</a-torus-knot>
-			</a-box>
+			</a-entity>
+			
 		</a-marker>
 		<a-entity camera></a-entity>
 	</a-scene>
